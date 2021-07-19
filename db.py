@@ -62,7 +62,6 @@ def LoadSlaves(master_id):
 
 def LoadUserIDByTelegramID(telegram_id):
     user_id = my_session.query(Users).filter(Users.telegram_id == telegram_id).first()
-    print(user_id)
     return user_id.id
 
 
