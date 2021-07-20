@@ -13,7 +13,8 @@ def handleBoolean(status):
 
 
 StartUPKeyboard = [
-    ['/start', '/View Slaves'],
+    ['/start', '/View Masters','Add Masters'],
+    ['/Delete Master', '/Edit Masters','View Slaves'],
     ['/Done'],
 ]
 markup = ReplyKeyboardMarkup(StartUPKeyboard,
